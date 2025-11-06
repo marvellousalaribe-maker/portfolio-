@@ -1,0 +1,96 @@
+body {
+background-color: black;
+}
+#portfolio {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#about {
+    color: yellow;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+}
+#Things {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+#image {
+  text-align: center;
+  color: aquamarine;
+  font-style: italic;
+  font-size: 20px;
+  width: fit-content;
+  height: auto;
+  border: 1px solid;
+  display: block;
+  max-width: 100%; /* add the missing % sign */
+}
+
+/* THIS controls the actual image size */
+#image img {
+  width: 300px;     /* reduce width */
+  height: auto;     /* keep proportions */
+  border-radius: 10px; /* optional: rounded corners */
+}
+#game {
+    color: aqua;
+    font-size: 20px;
+    font-style: inherit;
+}
+.rank {
+ list-style: none;
+ padding: 0px;
+ margin: 10px 0;
+font-size: 30px;
+font-weight: bold;
+font-style: oblique;
+ text-align: center;
+ color: white;     
+}
+.pictures {
+  background: black;
+  display: flex;
+  text-align: center;
+  color: red;
+  font-style: italic;
+  font-size: 20px;
+
+}
+.round {
+  color: red;
+  font: bold;
+  font size: 40px;
+  font: optional;
+  font-style: italic;
+  text-align: center;
+}
+footer {
+  color: blue;
+  font-size: 40px;
+  font-style: oblique;
+text-align: center;
+}
+script {
+  background: white;
+  font-size: 30px;
+  font-style: italic;
+}
+#link {
+  color: white;
+  font-size: 20px;
+  background: black;
+
+}
+#name {
+  color: aqua;
+  font-style: italic;
+  font-size: 20px;
+  
+}
+
